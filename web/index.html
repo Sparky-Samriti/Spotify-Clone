@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="/assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <i class="fa-brands fa-spotify"></i>
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-house" id="home" style="color: #ffffff;"></i>
+            <div class="searchbar">
+                <i class="fa-solid fa-magnifying-glass" id="magnifier"></i>
+                <input type="text" name="song" id="song" placeholder="What do you want to play?">
+                <img src="/Spotify Clone/assets/browse icon.png" alt="browse">
+            </div>
+        </div>
+        <div class="login">
+            <div class="explore">Explore Premium</div>
+            <div class="install">
+                <i class="fa-solid fa-circle-arrow-down"></i>
+                <div class="i">Install App</div>
+            </div>
+            <div class="notify">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="friends">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="profile">S</div>
+        </div>
+    </div>
+
+
+    <div class="library">
+        <div class="head">
+            <div class="lib">
+                <img src="/Spotify Clone/assets/libIcon.png" alt="library" class="libimg">
+                <div class="heading">
+                    Your Library
+                </div>
+            </div>
+            <div class="plus">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="box">
+                <div class="topic">Create your first playlist</div>
+                <div class="para">It's easy, we'll help you</div>
+                <span class="click">Create playlist</span>
+            </div>
+            <div class="box">
+                <div class="topic">Let's find some podcasts to follow</div>
+                <div class="para">We'll keep you updated on new episodes</div>
+                <span class="click">Browse podcasts</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="major">
+        <div class="first">
+            <div class="capsule capsule1">All</div>
+            <div class="capsule">Music</div>
+            <div class="capsule">Podcasts</div>
+        </div>
+        <div class="panel1">
+            <div class="tagline">
+                <div class="initial">Charts</div>
+                <div class="end">Show all</div>
+            </div>
+            <div class="charts">
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p6.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Hottest Hindi music that India is listening to...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p5.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Your daily update of the most played tracks righ...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p4.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>New music from kollywood. Cover :...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p1.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Catch the hottest Punjabi tracks. Cover: Shubh</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p2.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Your daily update of the most played tracks righ...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p3.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>New music from Jasmine Sandlas, Talwiinder, Dilji...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel1 panel2">
+            <div class="tagline">
+                <div class="initial">Recently played</div>
+                <div class="end">Show all</div>
+            </div>
+            <div class="charts">
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/current playing.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>YRF Top 10 - Falling in Love</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel1">
+            <div class="tagline">
+                <div class="initial">Recommended for you</div>
+                <div class="end">Show all</div>
+            </div>
+            <div class="charts">
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p11.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>The most streamed artists of 2025 in...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p12.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>The most streamed Haryanvi artists of 2025...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p13.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>The most streamed artists of 2025 in...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p14.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>The most streamed artists of 2025 in Punja...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p15.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Editors pick the best tracks from I-Pop artist...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p16.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Most exciting artists from the Indian Indie...</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="panel1">
+            <div class="tagline">
+                <div class="initial">Featured Charts</div>
+                <div class="end">Show all</div>
+            </div>
+            <div class="charts">
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/card5img.jpeg" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Your weekly update of the most played tracks...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/card6img.jpeg" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Your weekly update of the most played tracks...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p21.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Your daily update of the most viral tracks right...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p22.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Your daily update of the most viral tracks right...</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/card1img.jpeg" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <p>Your daily update of the most played tracks righ...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel1 shows">
+            <div class="tagline">
+                <div class="initial">Playlists</div>
+                <div class="end">Show all</div>
+            </div>
+            <div class="charts">
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p31.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <span>Pumped Pop</span>
+                    <p>By Spotify</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p32.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">Meditate to the Sounds of Nature</div>
+                    <p>By Spotify</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p33.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <span>Jazz for Reading</span>
+                    <p>By Spotify</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p34.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <span>Reading Soundtrack</span>
+                    <p>By Spotify</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p35.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <span>Focus Flow</span>
+                    <p>By Spotify</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p36.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <span>chill lofi study beats</span>
+                    <p>By Spotify</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel1 shows">
+            <div class="tagline">
+                <div class="initial">Episodes you might like</div>
+                <div class="end">Show all</div>
+            </div>
+            <div class="charts">
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p51.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">दुखी हो तो मन को शांति देगी श्री कृष्ण की ये बातें...</div>
+                    <p>May 2023 &bull; 10 min</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p41.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">"INSECURITY" || Stand Up Comedy ...</div>
+                    <p>Dec 2025 &bull; 24 min</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p42.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">Karunesh Talwar | Raw and Real</div>
+                    <p>Jan 19 &bull; 76 min</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p43.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">Paid PR, Cheating & Dark Politics -...</div>
+                    <p>Jan 20 &bull; 129 min</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p44.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">Rudy Shoots Her Shot with Mercello...</div>
+                    <p>Jan 19 &bull; 84 min</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p46.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">How To Stop Mind's Noise</div>
+                    <p>Jan 2 &bull; 49 min</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel1 shows">
+            <div class="tagline">
+                <div class="initial">Shows to try</div>
+                <div class="end">Show all</div>
+            </div>
+            <div class="charts">
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p51.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">Shri Krishna Geeta Vani</div>
+                    <p>Bhaskar Jyoti Datta</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p52.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">The Prakhar Gupta Xperience</div>
+                    <p>Prakhar Gupta</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p53.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">The Ranveer Show</div>
+                    <p>BeerBiceps</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p54.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">Scary Pumpkin Horror Podcast</div>
+                    <p>Horror Podcast</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p55.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">Listening Time: English Practice</div>
+                    <p>Sonoro | Conner Pe</p>
+                </div>
+                <div class="chart1">
+                    <img src="/Spotify Clone/assets/p45.png" alt="HotHits">
+                    <div class="playbtn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="name">Best of Unfair: Part 1 (Compilation)</div>
+                    <p>By Spotify</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator s1"></div>
+
+        <div class="footer1">
+            <div class="links">
+                <div class="category">Company</div>
+                <div class="divisions">About</div>
+                <div class="divisions">Jobs</div>
+                <div class="divisions">For the Record</div>
+            </div>
+            <div class="links">
+                <div class="category">Communities</div>
+                <div class="divisions">For Artists</div>
+                <div class="divisions">Developers</div>
+                <div class="divisions">Advertising</div>
+                <div class="divisions">Investors</div>
+                <div class="divisions">Vendors</div>
+            </div>
+            <div class="links">
+                <div class="category">Useful links</div>
+                <div class="divisions">Support</div>
+                <div class="divisions">Free Mobile App</div>
+                <div class="divisions">Popular by Country</div>
+                <div class="divisions">Import your music</div>
+            </div>
+            <div class="links">
+                <div class="category">Spotify Plans</div>
+                <div class="divisions">Premium Lite</div>
+                <div class="divisions">Premium Standard</div>
+                <div class="divisions">Premium Platinum</div>
+                <div class="divisions">Premium Student</div>
+                <div class="divisions">Spotify Free</div>
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </div>
+        </div>
+
+        <div class="separator s2"></div>
+
+        <div class="footer2">
+            <div class="part1">
+                <div class="parts">Legal</div>
+                <div class="parts">Safety & Privacy Center</div>
+                <div class="parts">Privacy Policy</div>
+                <div class="parts">Cookies</div>
+                <div class="parts">About Ads</div>
+                <div class="parts">Accessibility</div>
+            </div>
+            <div class="part2">&copy; 2026 Spotify AB</div>
+        </div>
+
+    </div>
+
+
+
+    <div class="curr-playing">
+
+        <div class="song">
+            <div class="cover">
+                <img src="/Spotify Clone/assets/current playing.png" alt="current playing">
+            </div>
+            <div class="songnamesection">
+                <div class="songname">Dil Diyan Gallan</div>
+                <div class="singer">Atif Aslam</div>
+            </div>
+            <div class="add">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="majorcontrols">
+                <div class="btn1">
+                    <img src="/Spotify Clone/assets/player_icon1.png" alt="">
+                </div>
+                <div class="btn2">
+                    <img src="/Spotify Clone/assets/player_icon2.png" alt="">
+                </div>
+                <div class="btn3" id="play">
+                    <img src="/Spotify Clone/assets/player_icon3.png" alt="">
+                </div>
+                <div class="btn2">
+                    <img src="/Spotify Clone/assets/player_icon4.png" alt="">
+                </div>
+                <div class="btn1">
+                    <img src="/Spotify Clone/assets/player_icon5.png" alt="">
+                </div>
+            </div>
+            <div class="timerange">
+                <div class="time">1:14</div>
+                <input type="range" min="0" max="100" step="1">
+                <div class="time">4:20</div>
+            </div>
+        </div>
+
+        <div class="volume">
+            <div class="volicons icon1">
+                <img src="/Spotify Clone/assets/controld_icon2.png" alt="">
+            </div>
+            <div class="volicons icon2">
+                <img src="/Spotify Clone/assets/controls_icon3.png" alt="">
+            </div>
+            <div class="volicons icon3">
+                <img src="/Spotify Clone/assets/controls_icon4.png" alt="">
+            </div>
+            <div class="volicons icon4">
+                <img src="/Spotify Clone/assets/controls_icon5.png" alt="">
+            </div>
+            <div class="icon5">
+                <input type="range" min="0" max="100" step="1">
+            </div>
+            <div class="volicons icon6">
+                <img src="/Spotify Clone/assets/album_icon2.png" alt="">
+            </div>
+            <div class="volicons icon7">
+                <i class="fa-solid fa-expand"></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
